@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e9e9e9;
+    background-color: white;
     font-family: var(--font--roboto--bold);
 
 }
@@ -13,8 +13,8 @@ img {
     max-width: 100%;
 }
 
-
 /* FUENTES */
+
 @font-face {
     font-family: "roboto--bold";
     src: url(./fonts/Roboto-Bold.ttf);
@@ -39,21 +39,21 @@ img {
 /* FIN */
 
 .b-main {
-    height: 800px;
+    height: 750px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #e9e9e9;
 }
 
 .b-main__info {
 
-
-    width: 50%;
+    width: 36%;
     display: flex;
     flex-direction: column;
-    margin-right: 25px;
     justify-content: center;
     align-items: center;
 }
@@ -62,7 +62,6 @@ img {
     height: 100%;
     width: 50%;
     display: flex;
-    margin-left: 25px;
     padding: 20px 0px;
     justify-content: center;
     align-items: center;
@@ -72,13 +71,12 @@ img {
     padding: 0px 30px;
 }
 
-
 .b-img--iconXS {
     width: 140px;
 }
 
 .b--hXL {
-    font-size: 60px;
+    font-size: 43px;
     text-align: center;
 }
 
@@ -104,4 +102,24 @@ img {
     border: none;
     color: #0171e3;
     font-size: 22px;
+    background-color: transparent;
+}
+
+.u-padd-tb20 {
+    padding: 20px 0px;
+}
+
+.u-pdd-t15 {
+    padding-top: 15px;
+}
+
+.u-pdd-l20 {
+    padding-left: 20px;
+}
+
+.b-main__info__link {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }

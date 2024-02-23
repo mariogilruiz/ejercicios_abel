@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "arial";
 }
 
 * {
@@ -25,16 +26,11 @@ img {
 }
 
 .b-card--style01 {
-
     height: 550px;
     width: calc(33% - 20px);
     margin: 10px;
-
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
-
-
 }
 
 .b-img-stand {
@@ -43,10 +39,32 @@ img {
     background-color: #e9e9e9;
 }
 
-
 .b-card--style01__figcap {
     width: 100%;
     background-color: white;
     padding: 15px 0px;
+}
 
+.b-text--XS {
+    color: #5F2106;
+    font-weight: 600;
+}
+
+.b-heade--h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.b-heade--h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+
+.u-pad-6tb {
+    padding: 6px 0px;
+}
+
+.u-pad-2tb {
+    padding: 2px 0px;
 }

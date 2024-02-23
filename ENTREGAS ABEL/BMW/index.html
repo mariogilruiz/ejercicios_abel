@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dia-2-ejercicio-1/style.css">
+    <link rel="stylesheet" href="../BMW/style.css">
     <title>BMW</title>
 </head>
 
@@ -46,7 +46,7 @@
 
             <figure class="b-headertop__logo">
                 <div class="b-headertop__logo__img">
-                    <img src="/dia-2-ejercicio-1/images/BMW.svg.png" alt="BMW">
+                    <img src="./images/BMW.svg.png" alt="BMW">
                 </div>
                 <figcaption class="b-headertop__logo__h">
                     <h2 class="b-h2--XS">¿Te gusta conducir?</h2>
@@ -211,7 +211,9 @@
 
                 <div class="b-main__container__iframe__01">
                     <figure class="b--cardIframe">
-                        <img class="b-img--panoramic --paddXSbtt" src="./images/dark-silver-sedan-port.jpg" alt="">
+                        <div class="b-main__container__iframe__01__img">
+                            <img class="b-img--panoramic --paddXSbtt" src="./images/dark-silver-sedan-port.jpg" alt="">
+                        </div>
                         <igcaption>
                             <h2 class="b-h3--mainXL --paddXSbtt ">Categorias BMW</h2>
                         </igcaption>
@@ -223,9 +225,15 @@
 
                 <div class="b-main__container__iframe__02">
                     <figure class="b--cardIframe">
-                        <img class="b-img--panoramic --paddXSbtt" src="./images/dark-silver-sedan-port.jpg" alt="">
+                        <div class="b-main__container__iframe__02__img">
+                            <iframe class="b-iframe" width="560" height="315"
+                                src="https://www.youtube.com/embed/AFtUpMTs4vI?si=bRG-TEhAV3yNrIcD"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
                         <igcaption>
-                            <h2 class="b-h3--mainXL --paddXSbtt">Categorias BMW</h2>
+                            <h2 class="b-h3--mainXL --paddXSbtt ">Categorias BMW</h2>
                         </igcaption>
 
                         <a class="-b-h3--mainM --black --paddingBtt b-fcs "><span><img src="./images/proximo.png"
@@ -240,27 +248,26 @@
 
                 <div class="b-main__container__services_content">
                     <div class="-b--cardServices">
-                        <img src="" alt="imagen">
-                        <span>Configuracion</span>
+                        <img class="u-padd-b10" src="./images/coche.png" alt="imagen">
+                        <span class="b-p--cardS u-color-grey">Configuracion</span>
                     </div>
 
-                    <div class="-b--cardServices"> <img src="" alt="imagen">
-                        <span>Catalogos</span>
-                    </div>
-
-                    <div class="-b--cardServices">
-                        <img src="" alt="imagen">
-                        <span>Pide una oferta</span>
+                    <div class="-b--cardServices"> <img class="u-padd-b10" src="./images/coche.png" alt="imagen">
+                        <span class="b-p--cardS u-color-grey">Catalogos</span>
                     </div>
 
                     <div class="-b--cardServices">
-                        <img src="" alt="imagen">
-                        <span>Contacto</span>
+                        <img class="u-padd-b10" src="./images/coche.png" alt="imagen">
+                        <span class="b-p--cardS u-color-grey">Pide una oferta</span>
+                    </div>
+
+                    <div class="-b--cardServices">
+                        <img class="u-padd-b10" src="./images/coche.png" alt="imagen">
+                        <span class="b-p--cardS u-color-grey">Contacto</span>
                     </div>
                 </div>
 
             </section>
-
 
         </section>
 
@@ -269,69 +276,136 @@
     <div class="b-main__container__preFooter">
         <div class="b-main__container__preFooter__content">
             <div class="b-main__container__preFooter__content__list">
-                <h3>Contacto</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-
+                <h3 class="b-h3--mainL b-color--black u-padd-b30">Contacto</h3>
+                <nav class="b-nav--HF">
+                    <ul class="b-nav--HF">
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
 
             <div class="b-main__container__preFooter__content__list">
 
-                <h3>Mundo BMW</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
+                <h3 class="b-h3--mainL b-color--black u-padd-b30">Mundo BMW</h3>
+                <nav class="b-nav--HF">
+                    <ul class="b-nav--HF">
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
 
             <div class="b-main__container__preFooter__content__list">
 
-                <h3>Gama BMW</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
-                        <li><a href="#">BMW banner enlaces</a></li>
+                <h3 class="b-h3--mainL b-color--black u-padd-b30">Gama BMW</h3>
+                <nav class="b-nav--HF">
+                    <ul class="b-nav--HF">
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
+                        <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey" href="#">BMW
+                                banner enlaces</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
 
             <div class="b-main__container__preFooter__content__list">
 
-                <h3>Siguenos en</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twiter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
+                <h3 class="b-h3--mainL b-color--black u-padd-b30">Siguenos en</h3>
+                <nav class="b-nav--HF">
+                    <ul class="b-nav--HF ">
+                        <ul class="b-nav--HF">
+                            <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey"
+                                    href="#">Facebook</a></li>
+                            <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey"
+                                    href="#">Twiter</a></li>
+                            <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey"
+                                    href="#">Instagram</a></li>
+                            <li class="u-pdd-tb2"><a class="b-p--cardS u-Text-size-15 u-padd-b10 u-color-grey"
+                                    href="#">Youtube</a></li>
+                        </ul>
                 </nav>
             </div>
         </div>
@@ -342,19 +416,24 @@
         <section class="b-footer__container">
             <div class="b-footer__content01">
 
-                <p>&copy BMW ES 2018</p>
+                <p class="u-text-family u-pad-10 u-padd-t20">&copy BMW ES 2018</p>
             </div>
-            <div class="b-footer__content02">
-                <nav>
-                    <ul>
-                        <li><a href="#">Pagians legales</a></li>
-                        <li><a href="#">Pagians legales</a></li>
-                        <li><a href="#">Pagians legales</a></li>
-                        <li><a href="#">Pagians legales</a></li>
-                        <li><a href="#">Pagians legales</a></li>
+            <div class="b-footer__content02 u-CC">
+                <nav class="b-nav--HF u-CC ">
+                    <ul class="b-nav--HF u-flex u-CC u-text-family">
+                        <li class="u-pad-10 u-padd-t20"><a class="u-color-blueBMW" href="#">Paginas legales</a></li>
+                        <li class="u-pad-10 u-padd-t20"><a class="u-color-blueBMW" href="#">Paginas legales</a></li>
+                        <li class="u-pad-10 u-padd-t20"><a class="u-color-blueBMW" href="#">Paginas legales</a></li>
+                        <li class="u-pad-10 u-padd-t20"><a class="u-color-blueBMW" href="#">Paginas legales</a></li>
+                        <li class="u-pad-10 u-padd-t20"><a class="u-color-blueBMW" href="#">Paginas legales</a></li>
                     </ul>
                 </nav>
             </div>
+        </section>
+
+        <section class="b-footer__next0back u-flex u-CC u-padd-t20">
+            <button class="b-bttn--next0back u-text-family u-marg-l50 ">Anterior</button>
+            <button class="b-bttn--next0back u-text-family u-marg-r50">Siguiente</button>
         </section>
     </footer>
 

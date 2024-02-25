@@ -5,50 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slack</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="b-header u-disp--fcc">
 
-        <section>
+        <section class="b-header__content u-disp--fsbc ">
 
-            <div>
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <nav>
-                    <ul>
-                        <li>Funciones</li>
-                        <li>Soluciones</li>
-                        <li>Empresas</li>
-                        <li>Recursos</li>
-                        <li>Precios</li>
+            <div class="b-header__content__start">
+                <img class="b-icon__logo--S u-marg-r30" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <nav class="b-header__content__start__nav u-size-hw100">
+                    <ul class="b-header__content__start__nav__ul u-size-hw100">
+                        <li class="u-padd-10-15"><a class="b-font__color--white" href="">Funciones</a></li>
+                        <li class="u-padd-10-15"><a class="b-font__color--white" href="">Soluciones</a></li>
+                        <li class="u-padd-10-15"><a class="b-font__color--white" href="">Empresas</a></li>
+                        <li class="u-padd-10-15"><a class="b-font__color--white" href="">Recursos</a></li>
+                        <li class="u-padd-10-15"><a class="b-font__color--white" href="">Precios</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <div>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+            <div class="b-header__content__end">
+                <a class="b-font__color--white" href="#">Conectarse</a>
+                <a class="b-font__color--white b-a--bttn01 u-disp--fcc u-marg-l20" href="#">hablar con ventas</a>
+                <a class="b-font__color--white b-a--bttn02 u-marg-l20" href="#">probarlo gratis</a>
             </div>
 
         </section>
 
-        <section>
+        <section class="b-header__container u-disp--fcc">
 
-            <div>
-                <h1>
+            <div class="b-header__container__contentStart">
+                <h1 class="b-header__container__contentStart__h1 b-h1">
                     <span>Pensando para las personas.</span>
-                    <span>Creando la productividad</span>
+                    <span class="b-font__color--secondary">Creando la productividad.</span>
                 </h1>
-                <p>Conecta con las personas adecuadas, encuentra lo que necesitas y automatiza todo lo demás. Así es
+                <p class="b-header__container__contentStart__p b-text">Conecta con las personas adecuadas, encuentra lo
+                    que necesitas y automatiza todo lo demás. Así es
                     como se trabaja en Slack, tu plataforma de productividad.
                 </p>
-                <a href="#">Registrarse con correo</a>
-                <a href="#"><img src="" alt="google"> Registrarse con google</a>
+                <a class="b-a--bttn02 u-disp--fcc" href="#">Registrarse con correo</a>
+                <a class="b-header__container__contentStart__agoogle b-a--bttn03 u-disp--fcc u-marg--t10" href="#"><svg
+                        class="b-icon__logo--google" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                        <g>
+                            <path fill="#EA4335"
+                                d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                            </path>
+                            <path fill="#4285F4"
+                                d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                            </path>
+                            <path fill="#FBBC05"
+                                d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                            </path>
+                            <path fill="#34A853"
+                                d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                            </path>
+                            <path fill="none" d="M0 0h48v48H0z"></path>
+                        </g>
+                    </svg> Registrarse con
+                    google</a>
+                <p class="b-header__container__contentStart__p2 b-text--bold600">
+                    Slack puede probarse de forma gratuita durante el tiempo que se quiera
+                </p>
+
             </div>
-            <div>
-                <video src="./assets/video/ia4-hero-product-ui.es-ES.mp4"></video>
+            <div class="b-header__container__contentEnd u-disp-fcc ">
+                <video class="b-header__container__contentEnd__video b-header__container__contentEnd"
+                    src="./assets/video/ia4-hero-product-ui.es-ES.mp4" autoplay loop></video>
             </div>
 
         </section>
@@ -56,21 +83,419 @@
 
     <main>
 
-        <section>
+        <section class="b-section01 u-disp--fsc">
 
-            <div>
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
-                <img src="./assets/image/slack-salesforce-logo-nav-white.png" alt="logo">
+            <h2 class="b-h2 u-marg--t60">EMPRESAS DE TODO EL MUNDO YA CONFÍAN EN SLACK</h2>
+
+            <div class="b-section01__empresasLogo u-disp--fcc">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+                <img class="b-icon__logo--S u-padd-lr25" src="./assets/image/slack-salesforce-logo-nav-white.png"
+                    alt="logo">
+            </div>
+
+            <section class="b-section01__container u-disp--fsc">
+
+                <section class="b-section01__container__content u-disp--fsbc">
+                    <div class="b-section01__container__content__infoleft ">
+                        <video class="u-size-hw100 u-posit--abs u-posit--l0" src="./assets/video/speed.es-ES.webm"
+                            autoplay loop></video>
+                    </div>
+
+                    <div class="b-section01__container__content__inforight u-disp--fcs">
+                        <div class="b-section01__textInfo">
+                            <h1 class="b-h1--S b-font__color--black">Agiliza el trabajo con todas tus herramientas en un
+                                mismo lugar</h1>
+                            <p class="b-text b-font__color--black u-padd-t20">Automatiza las tareas rutinarias con las
+                                posibilidades de la IA generativa
+                                y simplifica
+                                tu
+                                flujo de trabajo con tus aplicaciones favoritas listas para usar en Slack.</p>
+                            <a class="b-a__hover--line b-font__color--blue u-padd-t20" href="#">Más información sobre la
+                                plataforma de
+                                Slack</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="b-section01__container__content u-disp--fsbc">
+                    <div class="b-section01__container__content__infoleft ">
+                        <div class="b-section01__textInfo">
+                            <h1 class="b-h1--S b-font__color--black">Selecciona cómo quieres trabajar</h1>
+                            <p class="b-text b-font__color--black u-padd-t20">Slack te otorga la flexibilidad para
+                                trabajar
+                                cuando, donde y como tú quieras. Puedes
+                                chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en
+                                directo.</p>
+                            <a class="b-a__hover--line b-font__color--blue u-padd-t20" href="#">Obtén más información
+                                acerca de la
+                                comunicación flexible</a>
+                        </div>
+                    </div>
+
+                    <div class="b-section01__container__content__inforight u-disp--fcs">
+                        <video class="u-size-hw100  u-trans__rot--mirror" src="./assets/video/speed.es-ES.webm" autoplay
+                            loop></video>
+                    </div>
+                </section>
+
+
+                <section class="b-section01__container__content u-disp--fsbc">
+
+                    <div class="b-section01__container__content__infoleft ">
+                        <video class="u-size-hw100" src="./assets/video/speed.es-ES.webm" autoplay loop></video>
+                    </div>
+
+                    <div class="b-section01__container__content__inforight u-disp--fcs">
+                        <div class="b-section01__textInfo">
+                            <h1 class="b-h1--S b-font__color--black">Reúne a tu equipo</h1>
+                            <p class="b-text b-font__color--black u-padd-t20">Los canales son el corazón de Slack. Son
+                                espacios organizados para todo el mundo que
+                                contienen todo lo necesario para trabajar. Los canales permiten conectarse entre
+                                departamentos, oficinas, zonas horarias e incluso con otras empresas.</p>
+                            <a class="b-a__hover--line b-font__color--blue u-padd-t20" href="#">Obtener más información
+                                sobre los
+                                canales</a>
+                            <div class="b-section01__textInfo">
+                            </div>
+                </section>
+
+            </section>
+
+        </section>
+
+        <section class="b-section02 u-disp--fsc">
+
+            <section class="b-section02__container01 u-disp--fcc u-marg--t30">
+
+                <div class="b-section02__container01__content01 ">
+
+                    <h1 class="b-h1--XL b-font__color--black">Equipos grandes y pequeños confían en Slack</h1>
+                    <p class="b-text b-font__color--black u-marg--t30">Slack se adapta de forma segura para garantizar
+                        la
+                        colaboración en
+                        las empresas más importantes
+                        del mundo.</p>
+                    <div class="b-section02__container01__content01__links u-disp--fcc u-marg--t30">
+                        <a class="b-a--bttn01 b-font__color--white u-color__back--primary u-color__border--primary u-marg-r20 "
+                            href="">conoce slack para
+                            empresas</a>
+                        <a class="b-a--bttn02 b-font__color--primary u-color__border--primary" href="">hablar con
+                            ventas</a>
+                    </div>
+                </div>
+
+                <div class="b-section02__container01__content02 u-disp--fsac u-marg--t85">
+                    <div class="b-section02__container01__content02__info">
+                        <span class="b-font__color--primary b-font__size--XXL b-font__W--der">85%</span>
+                        <p class="b-font__color--black b-text-XS">de usuarios afirma que Slack ha mejorado la
+                            comunicación*</p>
+                    </div>
+
+                    <div class="b-section02__container01__content02__info">
+                        <span class="b-font__color--primary b-font__size--XXL b-font__W--der">86%</span>
+                        <p class="b-font__color--black b-text-XS">creen que su capacidad para trabajar a distancia ha
+                            mejorado*
+                        </p>
+                    </div>
+
+                    <div class="b-section02__container01__content02__info">
+                        <span class="b-font__color--primary b-font__size--XXL b-font__W--der">88%</span>
+                        <p class="b-font__color--black b-text-XS">se sienten más conectados con sus equipos*</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <article class="b-section02__container02 u-disp--fcc u-marg--t40">
+
+                <div class="b-section02__container02__content01 u-disp--fcc">
+                    <video class="u-size-hw100 u-posit--abs u-posit--l0 u-size-h--yoker01"
+                        src="./assets/video/Vídeo que muestra a un cliente de Slack,_.mp4" autoplay loop></video>
+                </div>
+
+                <div class="b-section02__container02__content02 u-disp--fcs">
+                    <p class="b-font__color--black b-font__size--25px b-font__lineH--40"><em> “Muchos
+                            empleados del
+                            sector tecnológico
+                            estaban
+                            realizando
+                            una
+                            transición natural hacia Slack.
+                            Por lo tanto, seguimos los pasos de nuestros usuarios hacia lo que a día de hoy es una de
+                            nuestras herramientas más importantes”.</em>
+                    </p>
+
+                    <h3 class="b-h3--XS u-marg--t20">Matt Beal</h3>
+
+                    <p class="b-font__color--black">Director de Estrategia y Arquitectura Tecnológica, Vodafone
+                    </p>
+
+                    <div class="b-section02__container02__content02__link">
+                        <a class="b-section02__container02__content02__link__a u-disp--fcc b-font__color--blue u-marg--t30"
+                            href="#">Ver más casos de
+                            clientes <img class="u-padd-l10" src="./assets/image/flecha-correcta.png" alt="flecha"> </a>
+                        <span class="b-span--HoverEffects01"></span>
+                    </div>
+                </div>
+            </article>
+
+            <p class="u-size-xw b-font__color--grey b-text-XS u-padd-20 b-font__algin--center u-marg--t40">
+                * Promedio ponderado. Basado en una encuesta de 2707 respuestas de usuarios semanales de Slack en
+                Estados Unidos, Reino Unido, Australia y Canadá, con un margen de error de ± 2 % al 95 % CI
+                (diciembre
+                de 2021).
+            </p>
+
+
+        </section>
+
+        <section class="b-section03 u-disp--fcc">
+
+            <div class="b-section03__container u-disp--fcc">
+
+                <h1 class="b-h1--S b-font__color--black u-marg--t60 u-marg--b30">Explora con más profundidad una nueva
+                    forma de
+                    trabajar</h1>
+
+                <div class="b-section03__container__content u-marg--b80 u-marg--t10 u-disp--fsac">
+
+                    <a class="b-card--elements" href="#">
+                        <figure class="b-card--elements__figure">
+                            <div class="b-card--elements__figure__img u-size-h--yoker02">
+                                <img class="u-size-hw100 u-obj--cov u-size-hw100" src="./assets/image/bombilla.jpeg"
+                                    alt="">
+                            </div>
+                            <h3 class="b-font__color--grey b-text-XS u-marg--t20">Funciones</h3>
+                            <figcaption>
+                                <h2 class="b-text-L u-marg--t10 b-font__W--der">Echa un vistazo a todo lo que puede
+                                    hacer la plataforma
+                                </h2>
+                            </figcaption>
+                            <span
+                                class="u-posit--abs u-posit--b10 u-disp--fsbc b-font__color--blue u-size-w100 u-trans--text b-text-XS b-font__W--der">examina
+                                las
+                                funciones <img class="u-posit--abs u-posit--r20 "
+                                    src="./assets/image/flecha-correcta.png" alt="flecha">
+                            </span>
+                        </figure>
+                    </a>
+
+                    <a class="b-card--elements" href="#">
+                        <figure class="b-card--elements__figure">
+
+                            <div class="b-card--elements__figure__img u-size-h--yoker02">
+                                <img class="u-size-hw100 u-obj--cov u-size-hw100" src="./assets/image/bombilla.jpeg"
+                                    alt="">
+                            </div>
+                            <h3 class="b-font__color--grey b-text-XS u-marg--t20">Funciones</h3>
+                            <figcaption>
+                                <h2 class="b-text-L u-marg--t10 b-font__W--der">Echa un vistazo a todo lo que puede
+                                    hacer la plataforma</h2>
+                            </figcaption>
+                            <span
+                                class="u-posit--abs u-posit--b10 u-disp--fsbc b-font__color--blue u-size-w100 u-trans--text b-text-XS b-font__W--der">examina
+                                las funciones <img class="u-posit--abs u-posit--r20 "
+                                    src="./assets/image/flecha-correcta.png" alt="flecha">
+                            </span>
+
+                        </figure>
+                    </a>
+
+                    <a class="b-card--elements" href="#">
+                        <figure class="b-card--elements__figure">
+                            <div class="b-card--elements__figure__img u-size-h--yoker02">
+                                <img class="u-size-hw100 u-obj--cov u-size-hw100" src="./assets/image/bombilla.jpeg"
+                                    alt="">
+                            </div>
+
+                            <h3 class="b-font__color--grey b-text-XS u-marg--t20">Funciones</h3>
+                            <figcaption>
+                                <h2 class="b-text-L u-marg--t10 b-font__W--der">Echa un vistazo a todo lo que puede
+                                    hacer la plataforma</h2>
+                            </figcaption>
+                            <span
+                                class="u-posit--abs u-posit--b10 u-disp--fsbc b-font__color--blue u-size-w100 u-trans--text b-text-XS b-font__W--der">examina
+                                las funciones <img class="u-posit--abs u-posit--r20 "
+                                    src="./assets/image/flecha-correcta.png" alt="flecha">
+                            </span>
+                        </figure>
+                    </a>
+
+                    <a class="b-card--elements" href="#">
+                        <figure class="b-card--elements__figure">
+                            <div class="b-card--elements__figure__img u-size-h--yoker02">
+                                <img class="u-size-hw100 u-obj--cov u-size-hw100" src="./assets/image/bombilla.jpeg"
+                                    alt="">
+                            </div>
+                            <h3 class="b-font__color--grey b-text-XS u-marg--t20">Funciones</h3>
+                            <figcaption>
+                                <h2 class="b-text-L u-marg--t10 b-font__W--der">Echa un vistazo a todo lo que puede
+                                    hacer la plataforma</h2>
+                            </figcaption>
+
+                            <span
+                                class="u-posit--abs u-posit--b10 u-disp--fsbc b-font__color--blue u-size-w100 u-trans--text b-text-XS b-font__W--der">examina
+                                las funciones <img class="u-posit--abs u-posit--r20 "
+                                    src="./assets/image/flecha-correcta.png" alt="flecha">
+                            </span>
+                        </figure>
+                    </a>
+
+                </div>
             </div>
 
         </section>
 
+        <section class="b-section04 u-disp--fsc">
 
+            <div class="b-section04__container01 u-disp--fcc">
+                <div class="b-section04__container__content">
+                    <h1 class="b-h1--M">Descubre todo lo que puedes conseguir con Slack</h1>
+                    <div class="b-section04__container__content__link u-disp--fcc u-marg--t40">
+                        <a class="b-a--bttn02 u-marg-r10 " href="#">PROBARLO GRATIS</a>
+                        <a class="b-a--bttn01 b-font__color--white " href="#">HABLAR CON EL EQUIPO DE
+                            VENTAS</a>
+                    </div>
+                </div>
+
+            </div>
     </main>
+
+
+    <footer class="b-footer u-disp--fcc">
+
+        <section class="b-footer__container01">
+
+            <div class="b-footer__container01 u-disp--fcs u-marg--t60">
+                <svg class="u-posit--abs u-posit--l0 u-posit--t0" width="54" height="54"
+                    class="c-nav--footer__svgicon c-slackhash" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                    <title>Slack</title>
+                    <g fill="none" fill-rule="evenodd">
+                        <path
+                            d="M19.712.133a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386h5.376V5.52A5.381 5.381 0 0 0 19.712.133m0 14.365H5.376A5.381 5.381 0 0 0 0 19.884a5.381 5.381 0 0 0 5.376 5.387h14.336a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386"
+                            fill="#44BEDF"></path>
+                        <path
+                            d="M53.76 19.884a5.381 5.381 0 0 0-5.376-5.386 5.381 5.381 0 0 0-5.376 5.386v5.387h5.376a5.381 5.381 0 0 0 5.376-5.387m-14.336 0V5.52A5.381 5.381 0 0 0 34.048.133a5.381 5.381 0 0 0-5.376 5.387v14.364a5.381 5.381 0 0 0 5.376 5.387 5.381 5.381 0 0 0 5.376-5.387"
+                            fill="#2EB67D"></path>
+                        <path
+                            d="M34.048 54a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386h-5.376v5.386A5.381 5.381 0 0 0 34.048 54m0-14.365h14.336a5.381 5.381 0 0 0 5.376-5.386 5.381 5.381 0 0 0-5.376-5.387H34.048a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386"
+                            fill="#ECB22E"></path>
+                        <path
+                            d="M0 34.249a5.381 5.381 0 0 0 5.376 5.386 5.381 5.381 0 0 0 5.376-5.386v-5.387H5.376A5.381 5.381 0 0 0 0 34.25m14.336-.001v14.364A5.381 5.381 0 0 0 19.712 54a5.381 5.381 0 0 0 5.376-5.387V34.25a5.381 5.381 0 0 0-5.376-5.387 5.381 5.381 0 0 0-5.376 5.387"
+                            fill="#E01E5A"></path>
+                    </g>
+                </svg>
+                <div class="b-footer__container01__contentNav">
+                    <h2 class="b-h1--XXS">¿POR QUÉ SLACK?</h2>
+                    <nav>
+                        <ul>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Slack vs. Correo
+                                    electrónico</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a> </li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Participación</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Capacidad de adaptación</a>
+                            </li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Ver la demostración</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="b-footer__container01__contentNav">
+                    <h2 class="b-h1--XXS">PRODUCTO</h2>
+                    <nav>
+                        <ul>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Funciones</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Participación</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Capacidad</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="b-footer__container01__contentNav">
+                    <h2 class="b-h1--XXS">PRECIOS</h2>
+                    <nav>
+                        <ul>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Slack</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="b-footer__container01__contentNav">
+                    <h2 class="b-h1--XXS">RECURSOS
+                    </h2>
+                    <nav>
+                        <ul>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Slack vs. </a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Participación</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Capacidad de</a> </li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Ver la</a> </li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="b-footer__container01__contentNav">
+                    <h2 class="b-h1--XXS">EMPRESA</h2>
+                    <nav>
+                        <ul>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Slack vs. Correo </a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Canales</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Participación</a></li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Capacidad de</a> </li>
+                            <li class="u-padd-t20"><a class="b-font__color--grey" href="#">Ver la</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+
+            <div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#"></a>Lorem.</li>
+                            <li><a href="#"></a>Lorem.</li>
+                            <li><a href="#"></a>Lorem.</li>
+                            <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                            <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                            <li><a href="#"></a>Lorem.</li>
+                            <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div>
+                    <a download="nombre_archivo" href="#"><img src="." alt=""> Descagar Slack</a>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p>©2024 Slack Technologies, LLC, una empresa de Salesforce. Todos los derechos reservados. Las distintas marcas
+            comerciales pertenecen a sus respectivos propietarios.</p>
+
+    </footer>
 
 </body>
 

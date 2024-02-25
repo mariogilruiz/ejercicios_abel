@@ -1,0 +1,11 @@
+.b-section04 {
+    display: flex;
+    flex-direction: column;
+
+    &__container01 {
+        background-color: var(--color--primary);
+        height: 380px;
+        width: 100%;
+        clip-path: ellipse(75% 100% at center top);
+    }
+}

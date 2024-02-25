@@ -1,0 +1,18 @@
+.b-footer {
+    width: 100%;
+    flex-direction: column;
+
+
+    &__container01 {
+
+        max-width: 1000px;
+        position: relative;
+        width: 100%;
+
+
+        &__contentNav {
+
+            padding: 0px 30px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+// IMPORTS
+
+@import './home/b-header';
+@import './utilities/u-display';
+@import './utilities/b-text';
+@import './utilities/u-margins';
+@import './utilities/u-paddings';
+@import './utilities/b-icon';
+@import './utilities/u-sizes';
+@import './utilities/b-fonts';
+@import './utilities/b-a';
+@import './utilities/b-headings';
+@import './home/b-section01';
+@import './utilities/u-transforms';
+@import './home/b-section02';
+@import './utilities/u-colors';
+@import './home/b-section03';
+@import './home/b-section04';
+@import './home/b-footer';
+
+
+
+
+//GENERAL
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    a {
+        text-decoration: none;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h4,
+    p {
+        color: white;
+    }
+
+}

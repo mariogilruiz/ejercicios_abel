@@ -1,0 +1,68 @@
+.u-disp--fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-disp--fsbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.u-disp--fsac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.u-disp--fsc {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.u-disp--fcs {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.u-disp--fs {
+    display: flex;
+    align-items: start;
+}
+
+
+
+// absolutes
+
+
+.u-posit--abs {
+    position: absolute;
+}
+
+.u-posit--r0 {
+    right: 0;
+}
+
+.u-posit--r20 {
+    right: 20px;
+}
+
+.u-posit--l0 {
+    left: 0;
+}
+
+.u-posit--t0 {
+    top: 0;
+}
+
+.u-posit--r0 {
+    right: 0;
+}
+
+.u-posit--b10 {
+    bottom: 10px;
+}

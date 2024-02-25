@@ -1,0 +1,65 @@
+.b-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ASI NO */
+/* .b-gallery figure{} */
+/* ASI SI */
+.b-gallery__item {
+    width: calc(25% - 20px);
+    margin: 10px;
+    position: relative;
+    height: 130px;
+    overflow: hidden;
+}
+
+/* ASI NO */
+/* .b-gallery figure img{} */
+/* ASI SI */
+.b-gallery__img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.b-gallery__img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* ASI NO */
+/* .b-gallery figure figcaption{} */
+/* ASI SI */
+.b-gallery__text {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #49deb6d9;
+    padding: 10px 20px;
+}
+
+.b-gallery__text--right{
+    left: initial;
+    right: 0;
+}
+
+.b-gallery__text--center{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.b-gallery__text--sec{
+    background-color: salmon;
+}

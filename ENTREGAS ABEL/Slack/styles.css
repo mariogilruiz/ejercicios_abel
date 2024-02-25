@@ -149,6 +149,11 @@
   line-height: 18px;
 }
 
+.b-text-XXS {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 .b-text--bold600 {
   font-size: 18px;
   line-height: 25px;
@@ -223,6 +228,10 @@
   padding-left: 10px;
 }
 
+.u-padd-l15 {
+  padding-left: 15px;
+}
+
 .u-padd-lr25 {
   padding: 0px 25px;
 }
@@ -237,6 +246,26 @@
 
 .u-padd-t10 {
   padding-top: 10px;
+}
+
+.u-padd-b20 {
+  padding-bottom: 20px;
+}
+
+.u-padd-b30 {
+  padding-bottom: 30px;
+}
+
+.u-padd-b40 {
+  padding-bottom: 40px;
+}
+
+.u-padd-b50 {
+  padding-bottom: 50px;
+}
+
+.u-padd-b60 {
+  padding-bottom: 60px;
 }
 
 .b-icon__logo--S {
@@ -277,6 +306,30 @@
 
 .u-size-h--yoker02 {
   height: 180px;
+}
+
+.u-size-h--bnbLogo {
+  height: 40px;
+}
+
+.u-size-h--nasaLogo {
+  height: 60px;
+}
+
+.u-size-h--uberLogo {
+  height: 25px;
+}
+
+.u-size-h--circleLogo {
+  height: 50px;
+}
+
+.u-size-h--tnyLogo {
+  height: 33px;
+}
+
+.u-size-h--etsyLogo {
+  height: 40px;
 }
 
 .b-font__color--white {
@@ -325,6 +378,27 @@
 
 .b-font__algin--center {
   text-align: center;
+}
+
+@font-face {
+  font-family: "Symbols";
+  src: url(./assets/fonts/websymbols-regular-webfont.ttf);
+}
+@font-face {
+  font-family: "prueba";
+  src: url(./assets/fonts/FrederickatheGreat-Regular.ttf);
+}
+.b-font__symbols {
+  font-family: var(--font--symbols);
+}
+
+.b-font__prueba {
+  font-family: var(--font--prueba);
+}
+
+:root {
+  --font--prueba: "prueba", "Symbols", Helvetica, sans-serif;
+  --font--symbols: "Symbols", Arial, Helvetica, sans-serif;
 }
 
 .b-a--bttn01 {
@@ -449,8 +523,7 @@
 }
 
 .u-obj--cov {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .u-trans--text {
@@ -525,7 +598,6 @@
   --color--secondary: #ecb22f;
   --color--tertiary: #f4ede4;
   --color--blue: #4284f3;
-  --color--e9: #e9e9e9;
 }
 
 .u-color__back--primary {
@@ -582,8 +654,7 @@
   background-color: var(--color--primary);
   height: 380px;
   width: 100%;
-  -webkit-clip-path: ellipse(75% 100% at center top);
-          clip-path: ellipse(75% 100% at center top);
+  clip-path: ellipse(75% 100% at center top);
 }
 
 .b-footer {
@@ -591,12 +662,42 @@
   flex-direction: column;
 }
 .b-footer__container01 {
-  max-width: 1000px;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+.b-footer__container01__content01 {
   position: relative;
   width: 100%;
 }
-.b-footer__container01__contentNav {
+.b-footer__container01__content01::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: var(--color--e9);
+  width: 100%;
+  bottom: 0;
+}
+.b-footer__container01__content01__contentNav {
   padding: 0px 30px;
+}
+.b-footer__container02 {
+  width: 100%;
+  flex-direction: column;
+}
+.b-footer__container02__content {
+  width: 100%;
+  max-width: 1200px;
+}
+.b-footer__container02__content__01 {
+  width: 80%;
+}
+.b-footer__container02__content__02 {
+  width: 20%;
+}
+.b-footer__container02__content02 {
+  width: 100%;
+  max-width: 1200px;
 }
 
 * {
@@ -626,4 +727,6 @@ body h4,
 body h4,
 body p {
   color: white;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

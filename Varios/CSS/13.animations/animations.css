@@ -1,0 +1,51 @@
+.btn{
+    background-color: #333;
+    border: 4px solid lightgreen;
+    padding: 10px;
+    color: lightgreen;
+    cursor: pointer;
+    font-size: 18px;
+    animation: change-color 2s infinite ease
+}
+.btn--sec{
+    animation: change-color2 2s infinite ease
+}
+
+@keyframes change-color {
+    0%{ color: lightgreen}
+    50% {color: #FFFFFF}
+    100% {color: lightgreen}
+}
+
+@keyframes change-color2 {
+    0%{ color: red}
+    50% {color: blue; border: 8px solid}
+    75% {color: purple; font-size: 24px;}
+    100%{ color: red}
+}
+
+
+
+.b-box{
+    width: 250px;
+    height: 250px;
+    background-color: lightsalmon;
+}
+
+
+.rotate-scale-down-diag-1 {
+	animation: rotate-scale-down-diag-1 0.7s both linear;
+}
+
+  @keyframes rotate-scale-down-diag-1 {
+    0% {
+        transform: scale(1) rotate3d(1, 1, 0, 0deg);
+    }
+    50% {
+        transform: scale(0.5) rotate3d(1, 1, 0, -180deg);
+    }
+    100% {
+        transform: scale(1) rotate3d(1, 1, 0, -360deg);
+    }
+  }
+  

@@ -1,0 +1,20 @@
+@import "assets/icons/style.css";
+
+.b-text{
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    &--light{
+        color: aquamarine;
+    }
+    &--xl{
+        font-size: 48px;
+    }
+    &--l{
+        font-size: 32px;
+    }
+    &--icon{
+        font-size: 24px;
+    color: rgb(255, 215, 16);
+        
+    }
+}

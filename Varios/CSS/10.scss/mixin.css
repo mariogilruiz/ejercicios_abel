@@ -1,0 +1,12 @@
+.box {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.text-primary {
+  font-size: 2rem;
+}
+
+.text-big {
+  font-size: 3rem;
+}/*# sourceMappingURL=mixin.css.map */

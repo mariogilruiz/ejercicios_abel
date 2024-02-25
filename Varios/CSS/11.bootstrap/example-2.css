@@ -1,0 +1,12 @@
+.box{
+    width: 100%;
+    background-color: lightgreen;
+    height: 250px;
+}
+
+.box-2{
+    width: 100%;
+    background-color: lightsalmon;
+    height: 120px;
+    margin-bottom: 10px;
+}

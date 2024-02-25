@@ -1,0 +1,16 @@
+:root{
+    --color-primary: #FFF000;
+    --color-secondary: #570000;
+    --color-third: #14b9bc;
+}
+
+.b-btn{
+    color: var(--color-primary);
+}
+
+.b-gallery{
+    --local-spacing: 6px;
+
+    margin: var(--local-spacing);
+    padding: var(--local-spacing);
+}

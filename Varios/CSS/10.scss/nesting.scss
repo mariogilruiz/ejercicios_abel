@@ -1,0 +1,25 @@
+
+nav {
+    color: violet;
+    ul  {
+        li  {
+            color: red;
+            span{
+                color: blue;
+            }
+        }
+    }
+
+    &.pepe{
+        background-color: red;
+    }
+    &:hover{
+        background-color: aqua;
+    }
+    // a{}
+    // p{}
+}
+
+// nav ul li{}
+// nav a{}
+// nav p{}

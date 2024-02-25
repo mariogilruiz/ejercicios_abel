@@ -1,0 +1,28 @@
+$color-text-primary: #333;
+
+.b-text-primary{
+    color: $color-text-primary;
+}
+
+.b-btn{
+    color: $color-text-primary
+}
+
+a{
+    &.highlight{
+        color: lightgreen;
+    }
+}
+
+a{
+    .highlight2{
+        color: lightgreen;
+    }
+}
+
+a{
+    color: red;
+    &:hover{
+        color: green;
+    }
+}

@@ -18,7 +18,6 @@
     color: var(--color--blue);
 }
 
-
 .b-font__color--secondary {
     color: var(--color--secondary);
 }
@@ -51,4 +50,32 @@
 
 .b-font__algin--center {
     text-align: center;
+}
+
+
+
+// imposrts
+
+@font-face {
+    font-family: "Symbols";
+    src: url(./assets/fonts/websymbols-regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: "prueba";
+    src: url(./assets/fonts/FrederickatheGreat-Regular.ttf);
+}
+
+.b-font__symbols {
+    font-family: var(--font--symbols);
+}
+
+.b-font__prueba {
+    font-family: var(--font--prueba);
+}
+
+
+:root {
+    --font--prueba: "prueba", "Symbols", Helvetica, sans-serif;
+    --font--symbols: "Symbols", Arial, Helvetica, sans-serif;
 }

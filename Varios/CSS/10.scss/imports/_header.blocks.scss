@@ -1,0 +1,15 @@
+.b-header{
+    display: block;
+    &__logo{
+        font-size: 24px;
+        &--big{
+            font-size: 40px;
+        }
+    }
+    &__search{
+        border: 2px solid;
+    }
+    &--flex{
+        display: flex;
+    }
+}

@@ -2,17 +2,51 @@
     width: 100%;
     flex-direction: column;
 
-
     &__container01 {
-
-        max-width: 1000px;
-        position: relative;
+        max-width: 1200px;
         width: 100%;
+        position: relative;
 
+        &__content01 {
+            position: relative;
+            width: 100%;
 
-        &__contentNav {
+            &::after {
+                content: "";
+                position: absolute;
+                height: 2px;
+                background-color: var(--color--e9);
+                width: 100%;
+                bottom: 0;
+            }
 
-            padding: 0px 30px;
+            &__contentNav {
+                padding: 0px 30px;
+            }
+        }
+    }
+
+    &__container02 {
+        width: 100%;
+        flex-direction: column;
+
+        &__content {
+            width: 100%;
+            max-width: 1200px;
+
+            &__01 {
+                width: 80%;
+            }
+
+            &__02 {
+                width: 20%;
+            }
+
+        }
+
+        &__content02 {
+            width: 100%;
+            max-width: 1200px;
         }
     }
 }

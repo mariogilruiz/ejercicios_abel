@@ -1,0 +1,48 @@
+.b-btn {
+    padding: 10px;
+    &--sec {
+        color: red;
+    }
+    &--third {
+        color: green;
+    }
+    &--big {
+        padding: 24px;
+    }
+    &--small {
+        padding: 4px;
+    }
+    &:hover{
+        color: blue;
+    }
+}
+
+
+a{
+    color: green;
+    &:hover{
+        color: aqua;
+    }
+}
+
+/*
+.b-btn{
+
+}
+
+.b-btn--sec{
+
+}
+
+.b-btn--third{
+    
+}
+
+.b-btn--big{
+    
+}
+
+.b-btn--small{
+    
+}
+*/

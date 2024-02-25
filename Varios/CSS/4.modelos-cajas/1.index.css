@@ -1,0 +1,44 @@
+.b-box{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    border: 10px solid #317a66
+}
+
+.pepe{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.u-padding{
+    padding: 24px;
+    /* padding: 24px 10px 60px 100px; */
+    /* padding: 24px 48px; */
+
+    /* Alternativa */
+    /* padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px; */
+}
+
+.u-margin-s{
+    margin: 20px;
+}
+
+.u-margin{
+    margin: 48px;
+}
+
+.b-btn{
+    color: aquamarine;
+    background-color: #317a66;
+    font-family: Arial;
+    text-transform: uppercase;
+    border: 0;
+    padding: 32px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}

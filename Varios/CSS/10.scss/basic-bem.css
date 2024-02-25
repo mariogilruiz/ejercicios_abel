@@ -1,0 +1,47 @@
+.b-btn {
+  padding: 10px;
+}
+.b-btn--sec {
+  color: red;
+}
+.b-btn--third {
+  color: green;
+}
+.b-btn--big {
+  padding: 24px;
+}
+.b-btn--small {
+  padding: 4px;
+}
+.b-btn:hover {
+  color: blue;
+}
+
+a {
+  color: green;
+}
+a:hover {
+  color: aqua;
+}
+
+/*
+.b-btn{
+
+}
+
+.b-btn--sec{
+
+}
+
+.b-btn--third{
+
+}
+
+.b-btn--big{
+
+}
+
+.b-btn--small{
+
+}
+*//*# sourceMappingURL=basic-bem.css.map */

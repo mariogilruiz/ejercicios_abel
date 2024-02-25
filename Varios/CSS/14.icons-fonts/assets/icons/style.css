@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?diufx7') format('truetype'),
+    url('fonts/icomoon.woff?diufx7') format('woff'),
+    url('fonts/icomoon.svg?diufx7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-crown:before {
+  content: "\e908";
+}
+.icon-pokemon:before {
+  content: "\e904";
+}
+.icon-mask:before {
+  content: "\e901";
+}
+.icon-share-filled:before {
+  content: "\e902";
+}
+.icon-share:before {
+  content: "\e906";
+}
+.icon-heart:before {
+  content: "\e907";
+}
+.icon-heart-filled:before {
+  content: "\e905";
+}
+.icon-profile-user:before {
+  content: "\e900";
+}
+.icon-plus:before {
+  content: "\e903";
+}

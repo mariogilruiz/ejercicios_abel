@@ -1,0 +1,28 @@
+h1{
+    font-size: 48px;
+}
+
+p{
+    color: red;
+}
+
+@media (min-width: 480px){
+    h1{
+        font-size: 64px;
+    }
+    p{
+        display: none;
+        color: blue;
+    }
+}
+
+
+@media  (min-width: 1080px){
+    h1{
+        font-size: 124px;
+    }
+
+    p{
+        display: block;
+    }
+}

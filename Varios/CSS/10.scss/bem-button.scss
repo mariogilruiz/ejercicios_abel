@@ -1,0 +1,48 @@
+.b-btn {
+    padding: 20px;
+    color: white;
+    background-color: aquamarine;
+    border: 0;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 800;
+
+    &--sec {
+        background-color: rgb(8, 84, 58);
+    }
+    &--third {
+        background-color: salmon;
+    }
+    &--xl {
+        padding: 48px;
+    }
+    &--full {
+        width: 100%;
+    }
+}
+
+// .b-btn{
+//     padding: 20px;
+//     color: white;
+//     background-color: aquamarine;
+//     border: 0;
+//     font-family: Arial;
+//     font-size: 24px;
+//     font-weight: 800;
+// }
+
+// .b-btn--sec{
+//     background-color: rgb(8, 84, 58);
+// }
+// .b-btn--third{
+//     background-color: salmon;
+// }
+// .b-btn--xl{
+//     padding: 48px;
+// }
+// .b-btn--full{
+//     width: 100%;
+// }
+
+
+

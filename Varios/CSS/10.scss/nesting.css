@@ -1,0 +1,16 @@
+@charset "UTF-8";
+nav {
+  color: violet;
+}
+nav ul  li  {
+  color: red;
+}
+nav ul  li  span {
+  color: blue;
+}
+nav.pepe {
+  background-color: red;
+}
+nav:hover {
+  background-color: aqua;
+}/*# sourceMappingURL=nesting.css.map */

@@ -1,0 +1,35 @@
+/* #no-me-uses{
+    color: pink;
+} */
+
+.b-text.b-text--secondary{
+    color: tomato;
+}
+
+p{
+    color: red;
+    /* color: red!important; */
+}
+
+div p{
+    color:turquoise;
+}
+
+
+
+.b-text{
+    color: blue;
+    font-size: 24px;
+}
+
+p{
+    color: violet;
+}
+
+
+
+
+/* .b-text--secondary{
+    color: lightgreen;
+}  */
+

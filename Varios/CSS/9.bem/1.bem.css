@@ -1,0 +1,69 @@
+.b-header{
+
+}
+
+.b-header__nav{
+
+}
+
+.b-logo{
+
+}
+
+.b-footer{
+
+}
+
+.b-btn{}
+
+
+.b-gallery{
+    
+}
+
+.b-gallery__item{
+    
+}
+
+.b-gallery__item--sec{
+    
+}
+
+
+
+.b-btn{
+    border: 4px solid #333333;
+    color: #333333;
+    padding: 10px;
+    font-family: Arial;
+    background-color: transparent;
+}
+
+.b-btn--sec{
+    color: lightgreen;
+    border-color: lightgreen;
+}
+
+.b-btn--third{
+    color: #c34654;
+    border-color: #c34654;
+}
+
+.b-btn--big{
+    padding: 24px;
+}
+
+
+
+.b-btn--qua{
+    color: mediumvioletred;
+}
+
+.b-text{
+
+}
+
+/*MAL
+.b-section button{
+    color: mediumvioletred;
+}  */

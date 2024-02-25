@@ -1,0 +1,22 @@
+.b-header {
+  display: block;
+}
+.b-header:hover {
+  background-color: red;
+}
+.b-header__logo {
+  font-size: 24px;
+}
+.b-header__logo--big {
+  font-size: 40px;
+}
+.b-header__search {
+  border: 2px solid;
+}
+.b-header--flex {
+  display: flex;
+}
+
+.b-footer {
+  display: block;
+}/*# sourceMappingURL=bem.css.map */

@@ -1,0 +1,17 @@
+.box{
+    width: 100%;
+    background-color: lightgreen;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    width: 100%;
+    background-color: salmon;
+    height: 80px;
+    margin-bottom: 30px;
+
+}
+body{
+    margin: 0;
+}

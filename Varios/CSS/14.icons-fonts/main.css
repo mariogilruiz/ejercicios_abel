@@ -1,0 +1,18 @@
+@import "assets/icons/style.css";
+.b-text {
+  font-size: 24px;
+  color: rgb(51, 51, 51);
+}
+.b-text--light {
+  color: aquamarine;
+}
+.b-text--xl {
+  font-size: 48px;
+}
+.b-text--l {
+  font-size: 32px;
+}
+.b-text--icon {
+  font-size: 24px;
+  color: rgb(255, 215, 16);
+}/*# sourceMappingURL=main.css.map */

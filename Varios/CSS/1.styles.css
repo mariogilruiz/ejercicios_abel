@@ -1,0 +1,61 @@
+h2 {
+    color: yellowgreen
+}
+
+.text, .color-sec{
+    color: teal;
+}
+
+.text{
+    font-size: 48px;
+}
+
+
+.box{
+    font-size: 56px;
+    color: violet;
+}
+
+#estilo-especial{
+    background-color:violet
+}
+
+
+div p{
+   color: yellow; 
+}
+
+.box .text{
+    color: tomato;
+}
+
+.text-sec{
+    color: tomato;
+}
+
+.estilo.otro-estilo{
+color: brown;
+}
+
+h1.estilo.otro-estilo p{
+    color: crimson;
+}
+
+
+
+/*Metodologia*/
+.b-text{
+    color: tomato;
+}
+
+.b-text--sec{
+    color: rgb(44, 99, 99);
+}
+
+.b-text--third{
+    color: violet;
+}
+
+.b-text--link{
+    color: yellow;
+}

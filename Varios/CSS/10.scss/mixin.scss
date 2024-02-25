@@ -1,0 +1,23 @@
+@mixin colorBorder($color){
+    color: $color;
+    border: 1px solid $color;
+}
+
+.box{
+    @include colorBorder(#333)
+}
+
+
+//Function to convert px value into rem
+//You can replace rem with any other value you want (rem is most preferred value for web)
+@function size($target) {
+  @return ($target / 8) * 1rem;
+}
+
+.text-primary {
+    font-size: size(16);
+}
+
+.text-big {
+    font-size: size(24);
+}
